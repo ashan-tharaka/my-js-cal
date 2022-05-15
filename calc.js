@@ -6,7 +6,7 @@ function clearAll(){
 
 function removeZero(){
     var value=document.getElementById("result").innerHTML;
-    if(value=="0"){
+    if(value==="0"){
         value=" "
         document.getElementById("result").innerHTML=value;
 
