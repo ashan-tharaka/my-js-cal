@@ -17,13 +17,17 @@ body{
 }
 #mycal{
     background-color: #84169b;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+
     width: 450px;
     height: 55px;
     text-align: left;
     color: white;
     font-size: 30px;
-    padding-bottom: 15px;
+    border-radius: 10px;
+
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     border-bottom-left-radius: 10px;
@@ -83,7 +87,7 @@ button:active {
 }
 
 button:focus, #row1-1:focus, #row5-3{
-    outline: 0;
+    outline: 2px;
 }
 
 #row1-4, #row2-4, #row3-4, #row4-4{
