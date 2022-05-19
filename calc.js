@@ -21,8 +21,7 @@ function fordisplay(value){
 function equal(){
     removeZero()
     var equation=document.getElementById("result").innerHTML;
-    var answer=eval(equation);
-    document.getElementById("result").innerHTML=answer;
+    document.getElementById("result").innerHTML=eval(equation);
 
 }
 function backspace(){
